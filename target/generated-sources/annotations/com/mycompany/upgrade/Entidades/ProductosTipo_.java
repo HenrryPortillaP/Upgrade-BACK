@@ -1,0 +1,26 @@
+package com.mycompany.upgrade.Entidades;
+
+import com.mycompany.upgrade.Entidades.Productos;
+import com.vladmihalcea.hibernate.type.basic.Inet;
+import java.util.Date;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.CollectionAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-11-19T09:26:29")
+@StaticMetamodel(ProductosTipo.class)
+public class ProductosTipo_ { 
+
+    public static volatile SingularAttribute<ProductosTipo, Integer> creadoPor;
+    public static volatile SingularAttribute<ProductosTipo, Inet> editadoIp;
+    public static volatile SingularAttribute<ProductosTipo, Date> creado;
+    public static volatile SingularAttribute<ProductosTipo, Date> editado;
+    public static volatile SingularAttribute<ProductosTipo, Inet> creadoIp;
+    public static volatile CollectionAttribute<ProductosTipo, Productos> productosCollection;
+    public static volatile SingularAttribute<ProductosTipo, Integer> id;
+    public static volatile SingularAttribute<ProductosTipo, Boolean> inactivo;
+    public static volatile SingularAttribute<ProductosTipo, String> nombre;
+    public static volatile SingularAttribute<ProductosTipo, Integer> editadoPor;
+
+}

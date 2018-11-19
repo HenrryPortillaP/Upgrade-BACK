@@ -30,6 +30,7 @@ public class ApplicationConfig extends Application {
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
+        resources.add(com.mycompany.upgrade.Api.ApiLineas.class);
         resources.add(com.mycompany.upgrade.Facades.LineasFacadeREST.class);
         resources.add(com.mycompany.upgrade.Facades.MarcasFacadeREST.class);
         resources.add(com.mycompany.upgrade.Facades.NotasPedidoCabFacadeREST.class);
